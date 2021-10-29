@@ -1,0 +1,45 @@
+def hello():
+    print("Hello") #함수 정의시 들여쓰기o
+    print("Welcome to Codeit!")
+
+hello()  #함수 내용 작성시 들여쓰기 x
+hello()
+hello()
+
+burger_price = 4990
+fries_price = 1490
+drink_price = 1250
+
+print(burger_price)
+
+def hello(name): #name이 파라미터, 함수 기능을
+    print("Hello") #함수기능을 약간 바꿔쓰고 싶을 때
+    print(name)
+    print("Welcome to Codeit!")
+
+hello("민준") #파라미터 정의
+
+burger_price = 4990
+fries_price = 1490
+drink_price = 1250
+
+print(burger_price)
+print(burger_price*2)
+print(burger_price+fries_price)
+print(burger_price*3+fries_price*2+drink_price*5)
+
+print("코드잇")
+print('유재석')
+
+print("I'm excited to learn Python!")
+print("I\'m \"excited\" to learn Python")  #기계한테 문자열 아닌 따옴표 표시 \로 알려줌
+
+print("Hello + World")
+
+print("Hello"*3)
+
+print(int(3.8))
+
+print(float(3))
+
+print(int("2")+int("5"))   #문자열 → 정수형
